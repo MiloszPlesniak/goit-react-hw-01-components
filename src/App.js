@@ -1,8 +1,10 @@
 import Profile from "components/profile/Profile"
+import Statistics from "components/statistics/Statistics"
 import user from "components/profile/user.json"
+import stat from "components/statistics/data.json"
 
 
-
+console.log(stat)
 
 
 
@@ -16,7 +18,7 @@ const App = () => (
             stats={user.stats}>
 
         </Profile>
-
+        <Statistics title="Upload stats" stats={stat} />
 
     </>
 )
