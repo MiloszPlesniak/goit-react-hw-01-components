@@ -1,9 +1,9 @@
 import css from "./statistics.module.css"
 import clsx from "clsx";
-console.log(css);
+
 
 const Statistics = (prop) => {
-    console.log(prop);
+    
     return (
         <div className={css.statistics}>
             <h2 className={css.title}>{prop.title}</h2>
