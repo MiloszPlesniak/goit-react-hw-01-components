@@ -1,12 +1,12 @@
 import css from "./friends.module.css"
 import clsx from "clsx"
-console.log(css)
+
 
 
 
 const Friends = (prop) => {
 
-    console.log(prop.friendList)
+
 
     return (
         <div>
@@ -18,7 +18,7 @@ const Friends = (prop) => {
                                 [css.statusOnline]: friend.isOnline === true,
                                 [css.statusOffline]: friend.isOnline === false
                             })}></p>
-                            <img alt="User avatar" width={48} src={friend.avatar} />
+                            <img alt="User avatar" width={48} height={50} src={friend.avatar} />
                             <p className={css.name}>{friend.name}</p>
                         </li>)
                 })}
