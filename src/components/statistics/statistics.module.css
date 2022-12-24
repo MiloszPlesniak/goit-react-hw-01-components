@@ -1,17 +1,17 @@
 .statistics {
-  margin-left: 50px;
-  padding: 20px 50px 0px 50px;
-  /* background-color: rgb(240, 232, 222); */
+  margin-left: 40px;
+  
+  
   
 }
 .title {
-  text-align: center;
+  
 }
 .statList {
   display: flex;
   list-style: none;
   padding: 0px;
-  justify-content: center;
+  
 }
 .item {
   
