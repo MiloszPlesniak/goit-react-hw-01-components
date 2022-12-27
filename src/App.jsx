@@ -7,7 +7,6 @@ import Friends from 'Components/Friends/Friends';
 import transactions from 'data/transactions.json';
 import TransactionHistory from 'Components/TransactionHistory/TransactionHistory';
 
-
 const App = () => (
   <>
     <Profile
