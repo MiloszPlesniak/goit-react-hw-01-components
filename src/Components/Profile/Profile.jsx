@@ -1,3 +1,5 @@
+
+
 import css from './Profile.module.css';
 import PropTypes from 'prop-types';
 const Profile = prop => {
@@ -52,6 +54,6 @@ Profile.propTypes = {
   tag: PropTypes.string,
   location: PropTypes.string,
   avatar: PropTypes.string,
-  stats: PropTypes.object
+  stats: PropTypes.objectOf(PropTypes.number),
 };
 export default Profile;
